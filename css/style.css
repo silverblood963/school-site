@@ -131,40 +131,84 @@ li{}
 figcaption{
     font-family: Josefin Slab;
     font-size: .75rem;
-    margin-bottom: 2;
+    margin-bottom: 2rem;
 }
 
 /* Link Styling */
 a{
-    text-decoration: none
+    text-decoration: none;
+        color: inherit;
+    color
 }
 a:link{
-    text-decoration: none
+    text-decoration: none;
+        color: #33658A;
 }
 a:visited{
-    text-decoration: none
+    text-decoration: none;
+        color: #33658A;
 }
 A:focus{
-    text-decoration: none
+    text-decoration: none;
+        color: inherit;
+    
 }
 a:hover{
-    text-decoration: none
+    text-decoration: none;
+        color: inherit;
 }
 
 /* List Styling */
-ul{}
-ol{}
-.long-list a:hover{}
+ul{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: square;
+}
+ol{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: lower-alpha;
+}
+.long-list a:hover{
+    text-transform: uppercase;
+}
 
 
 
 /* Navigation Menu */
-nav{}
-nav a {}
-nav a:focus{}
-nav a:hover{
+nav{
+    padding-left: 0rem;
+    margin-top: .25rem;
+    
 }
-have a:active{}
+nav a {
+   text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-width: 0.063rem;
+    border-color: #33658A;
+}
+nav a:focus{
+    color: #FFF;
+    background-color: #33658A;
+}
+nav a:hover{
+    color: #FFF;
+    background-color: #33658A;
+}
+have a:active{
+    color: #FFF;
+    background-color: #000;
+}
 
 
 
@@ -172,7 +216,9 @@ have a:active{}
 
 
 /* Footer Styles */
-footer{}
+footer{
+    text-align: center;
+}
 
 
 
